@@ -1,0 +1,10 @@
+Toy example of using pyttsx to build a off-line text-to-speech program.
+
+For Ubuntu users, libespeak1 and tkinter are needed. You can install them:
+sudo apt-get update -y
+sudo apt-get install -y libespeak1
+sudo apt-get install python-tk
+
+The voice quality is a lot better on Windows but you might need to use an older version of pyttsx3 if >=2.8 gives an error. You can do so with:
+pip install pysstx3==2.71
+
